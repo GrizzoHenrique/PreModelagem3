@@ -14,14 +14,42 @@
 * **Home**: Tipo de residência, aluga ou propria
 * **Credit Score**: Nossa variável preditora, o score de crédito dos clientes
 
-### Tecnologias Utilizidas:
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![Plotly Express](https://img.shields.io/badge/Plotly-Express-3F4F75?logo=plotly&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
+### Etapas do projeto:
+1. Realizar toda primeira parte de tratamento dos dados verificando a necessidade de transformação
+2. Verificação e tratamento de outliers
+3. Análise Univariada
+4. Análise Bivariada
+5. Matrix de Correlação
+6. Balanceamento
+7. Codificação de variáveis categóricas
+8. Separação de bases em treino e teste
 
-### Como Executar o projeto:
-1. Certifique-se de possuir o arquivo csv no diretorio correto
-2. Abra o notebook Profissao Cientista de Dados M17 Projeto.ipynb
+### Tecnologias Utilizidas:
+| Tecnologia | Versão |
+|-----------|--------|
+| ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | 3.7 +|
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white) | Latest |
+| ![Plotly Express](https://img.shields.io/badge/Plotly-Express-3F4F75?logo=plotly&logoColor=white) | Latest |
+| ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logoColor=white) | Latest |
+| ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat&logoColor=white) | Latest |
+| ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white) | Latest |
+
+##  Como Executar
+
+### Pré-requisitos
+- Python 3.7+
+- pip ou conda
+
+### Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/GrizzoHenrique/PreModelagem3.git
+cd PreModelagem3
+
+# Crie um ambiente virtual (recomendado)
+python -m venv venv
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+
+# Instale as dependências
+pip install -r requirements.txt
